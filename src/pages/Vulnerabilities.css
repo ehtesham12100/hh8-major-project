@@ -1,0 +1,92 @@
+.filters-bar {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.filter-select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: white;
+}
+.vuln-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.vuln-table th {
+  text-align: left;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.vuln-table td {
+  padding: 14px 16px;
+  border-top: 1px solid #e5e7eb;
+  color: #374151;
+}
+
+.vuln-table tr:hover {
+  background-color: #f8fafc;
+}
+
+/* Status Badges */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-open {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.status-fixed {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.severity-critical {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.severity-high {
+  color: #ea580c;
+  font-weight: 600;
+}
+
+.severity-medium {
+  color: #ca8a04;
+  font-weight: 600;
+}
+
+.severity-low {
+  color: #65a30d;
+  font-weight: 600;
+}

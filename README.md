@@ -1,5 +1,3 @@
-# hh8-major-project
-Healthcare Security &amp; Analytics Dashboard that monitors patient data, detects anomalies, ensures HIPAA compliance, and provides real-time alerts. It integrates security tools, analytics, and dashboards to protect sensitive healthcare information from cyber threats.
 # HealthSecure: Security-First Healthcare Dashboard
 
 **HealthSecure** is a modern, full-stack Healthcare Analytics and Security Dashboard designed to protect sensitive patient data while providing real-time clinical insights. It bridges the gap between healthcare administration and cybersecurity monitoring.
@@ -86,4 +84,3 @@ The system provides a premium, responsive interface with deep analytics:
 
 ## 📜 License
 *Developed as part of HealthSecure Analytics Research.*
-
